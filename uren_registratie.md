@@ -12,4 +12,4 @@
 | 2025-02-28 | 4    | Werken aan website + maken logo          |
 | 2025-03-01 | 2    | Werken aan website                       |
 | 2025-03-02 | 4    | Werken aan website: favicons             |
-|            |      |                                          |
+| 2025-03-02 | 2    | Werken aan website styling               |
