@@ -6,6 +6,8 @@
     --color-light-blue: rgb(196, 245, 245);
     --color-offwhite: rgb(251, 252, 249);
     --color-white: rgb(255, 255, 255);
+
+    --min-supported-height: 300px;
 }
 
 html {
@@ -15,23 +17,30 @@ html {
 header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-width: min-content;
+    height: max(100vh, var(--min-supported-height));
     background-color: var(--color-yellow);
 
     .main-title {
-        font-size: 1.7em;
         color: var(--color-red);
     }
 
+    img {
+        flex: 0 1;
+
+        max-width: 100%;
+        max-height: calc(100% - (10rem));
+    }
+
     .sub-title {
-        font-size: 1em;
+        font-size: 1rem;
         color: var(--color-accent);
     }
 
     a {
-        padding: 1em;
+        padding: 1rem;
         background-color: var(--color-offwhite);
         border: 1px solid var(--color-accent);
         border-radius: 32px;
@@ -39,10 +48,18 @@ header {
         text-decoration: none;
     }
     
-    a:hover, a:active {
+    a:active {
         background-color: var(--color-accent);
         border-color: var(--color-white);
         color: var(--color-white);
+    }
+
+    @media (hover: hover) {
+        a:hover {
+            background-color: var(--color-accent);
+            border-color: var(--color-white);
+            color: var(--color-white);
+        }
     }
 }
 
@@ -51,13 +68,6 @@ section {
     max-width: min(70ch, 95%);
     text-wrap: pretty;
     background-color: var(--color-offwhite);
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
 }
 
 details {

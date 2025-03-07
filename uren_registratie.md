@@ -13,3 +13,6 @@
 | 2025-03-01 | 2    | Werken aan website                       |
 | 2025-03-02 | 4    | Werken aan website: favicons             |
 | 2025-03-02 | 2    | Werken aan website styling               |
+| 2025-03-03 | 2    | Werken aan website styling               |
+| 2025-03-05 | 2    | Werken aan website styling               |
+| 2025-03-06 | 2    | Werken aan website responsive design     |
