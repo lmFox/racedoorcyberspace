@@ -14,6 +14,12 @@ html {
     font-family: sans-serif;
 }
 
+@media (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -85,4 +91,11 @@ summary {
 details[open] summary {
     border-bottom: 1px solid black;
     margin-bottom: 0.5rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--color-yellow);
 }
