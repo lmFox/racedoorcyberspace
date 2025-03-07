@@ -27,7 +27,7 @@ header {
         color: var(--color-red);
     }
 
-    img {
+    .company-logo {
         flex: 0 1;
 
         max-width: 100%;
@@ -39,7 +39,7 @@ header {
         color: var(--color-accent);
     }
 
-    a {
+    .read-more-button {
         padding: 1rem;
         background-color: var(--color-offwhite);
         border: 1px solid var(--color-accent);
@@ -48,14 +48,14 @@ header {
         text-decoration: none;
     }
     
-    a:active {
+    .read-more-button:active {
         background-color: var(--color-accent);
         border-color: var(--color-white);
         color: var(--color-white);
     }
 
     @media (hover: hover) {
-        a:hover {
+        .read-more-button:hover {
             background-color: var(--color-accent);
             border-color: var(--color-white);
             color: var(--color-white);
