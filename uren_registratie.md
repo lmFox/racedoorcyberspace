@@ -16,3 +16,4 @@
 | 2025-03-03 | 2    | Werken aan website styling               |
 | 2025-03-05 | 2    | Werken aan website styling               |
 | 2025-03-06 | 2    | Werken aan website responsive design     |
+| 2025-03-08 | 3    | Werken aan website content               |

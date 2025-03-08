@@ -12,6 +12,7 @@
 
 html {
     font-family: sans-serif;
+    text-wrap: pretty;
 }
 
 @media (min-width: 768px) {
@@ -69,19 +70,20 @@ header {
     }
 }
 
-section {
-    margin: auto;
-    max-width: min(70ch, 95%);
-    text-wrap: pretty;
+main {
     background-color: var(--color-offwhite);
+}
+
+section {
+    margin: 4rem auto;
+    max-width: min(70ch, 95%);
 }
 
 details {
     border: 1px solid black;
     border-radius: 4px;
-    width: calc(100% - 4ch);
-    margin: 0 1ch;
-    padding: 0.5rem 1ch;
+    margin: 1rem 1ch;
+    padding: 1rem 1ch;
 }
 
 summary {
@@ -89,8 +91,7 @@ summary {
 }
 
 details[open] summary {
-    border-bottom: 1px solid black;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 footer {
