@@ -1,18 +1,68 @@
 <!doctype html>
 <html lang="nl">
   <head>
-    <meta charset="UTF-8" />
-    <title>Race door cyberspace!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/favicon_16x16.png" type="image/png" sizes="16x16" />
+    <link rel="icon" href="assets/favicon_32x32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="assets/favicon_48x48.png" type="image/png" sizes="48x48" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" type="image/png" />
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    
   </head>
   <body>
     <header>
-      <h1>Race door cyberspace!</h1>
+      <h1 class="main-title">Race door cyberspace!</h1>
+      <img class="company-logo" src="assets/logo.png" alt="Bedrijfslogo van een opstijgende raket met daaromheen binaire getallen." />
+      <h2 class="sub-title">Spelenderwijs leren programmeren</h2>
+      <a class="read-more-button clickable" href="#read-more">Lees meer</a>
     </header>
-    <main>
-      <p>Hier moet een mooie website komen.</p>
+      <section id="read-more">
+        <h2>Ons aanbod</h2>
+        <p>
+          Een ruim aanbod aan cursussen voor kinderen vanaf de basisschoolleeftijd.
+          Maak kennis met de wondere wereld van het programmeren met onderstaande cursussen.
+        </p>
+
+        <details class="clickable">
+          <summary>Scratch</summary>
+          <a href="https://scratch.mit.edu/">Scratch</a> is een programmeertaal ontwikkeld door MIT speciaal gericht op jonge kinderen.
+          Deze cursus is uitermate geschikt voor kinderen om de eerste stappen te zetten in het <dfn>computationeel denken</dfn>.
+        </details>
+        <details class="clickable">
+          <summary>Python</summary>
+          <a href="https://www.python.org/">Python</a> kent vele toepassingen en is daarom één van de meest populaire 
+          programmeertalen van dit moment. Binnen AI en data science geldt Python bij uitstek als de industriestandaard.
+          Deze cursus is meer geschikt voor de wat oudere leerling.
+        </details>
+        <details class="clickable">
+          <summary>HTML / CSS</summary>
+          In deze cursus kinderen de techniek achter websites. Deze cursus kent een groot creatief en visueel aspect: 
+          de opbouw beschrijven aan de hand van HTML en de opmaak aan de hand van CSS. Deze cursus is meer geschikt 
+          voor de wat oudere leerling.
+        </details>
+      </section>
+
+      <section>
+        <h2>Ons team</h2>
+        <p>
+          Ons team bestaat uit jonge IT professionals. Bedreven in het ontwikkelen van software, geven ze de kennis
+          én enthousiasme graag over aan de volgende generatie.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>Graag komen we in contact. Mail ons vrijblijvend op <a href="mailto:info@racedoorcyberspace.nl">info@racedoorcyberspace.nl</a> om de mogelijkheden te bespreken.</p>
+      </section>
     </main>
     <footer>
-      <p>En hier de contactinformatie en dergelijke.</p>
+      <h3 class="footer-title">Race door cyberspace!</h3>
+      <ul>
+        <li>E-mail: <a href="mailto:info@racedoorcyberspace.nl">info@racedoorcyberspace.nl</a></li>
+        <li>KvK: 123456789</li>
+      </ul>
     </footer>
   </body>
 </html>
