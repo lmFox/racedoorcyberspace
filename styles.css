@@ -61,7 +61,7 @@ main {
 }
 
 section {
-    margin: 4rem auto;
+    margin: 4em auto;
     max-width: min(70ch, 95%);
 }
 
