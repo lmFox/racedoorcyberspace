@@ -26,23 +26,23 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     min-width: min-content;
     height: max(100vh, var(--min-supported-height));
     background-color: var(--color-yellow);
 
     .main-title {
-        font-size: 1.65rem;
         color: var(--color-red);
     }
 
     .company-logo {
         flex: 0 1;
         max-width: 100%;
-        max-height: calc(100% - (12rem));
+        max-height: calc(100% - (13em));
     }
 
     .sub-title {
-        font-size: 1rem;
+        font-size: 1em;
         color: var(--color-accent);
     }
 
